@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expotools</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="index.css">
+  <style>
+    .logo {
+      width: 120px;
+    }
+    .top-bar {
+      background-color: #007bff;
+      color: white;
+      padding: 5px 0;
+      text-align: center;
+    }
+    .navbar-nav .nav-link {
+      color: #000;
+    }
+    .hero {
+      background-image: url('https://via.placeholder.com/1920x500');
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2rem;
+    }
+    .payment-options img {
+      max-width: 100px;
+      margin: 0 10px;
+    }
+    .footer {
+      background-color: #f8f9fa;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <span>Cons. Final: 1111111111| Distribuidor: 1111111111</span>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="/assets/1.png" alt="Pronor Logo" class="logo">
+      </a>
+      <form class="d-flex mx-auto">
+        <input class="form-control me-2" type="search" placeholder="Buscar productos" aria-label="Buscar">
+        <button class="btn btn-outline-primary" type="submit">Buscar</button>
+      </form>
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="#"><i class="fa fa-envelope"></i></a>
+        <a class="nav-item nav-link" href="#"><i class="fa fa-facebook"></i></a>
+        <a class="nav-item nav-link" href="#"><i class="fa fa-twitter"></i></a>
+        <a class="nav-item nav-link" href="#"><i class="fa fa-instagram"></i></a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownFerreteria" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Ferretería
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownFerreteria">
+              <a class="dropdown-item" href="#">Subcategoría 1</a>
+              <a class="dropdown-item" href="#">Subcategoría 2</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSeguridad" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Seguridad e Higiene
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownSeguridad">
+              <a class="dropdown-item" href="#">Subcategoría 1</a>
+              <a class="dropdown-item" href="#">Subcategoría 2</a>
+            </div>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Empresa</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Marcas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Registro</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="#">Invitado</a>
+        <a class="nav-item nav-link" href="#">Ingresar</a>
+        <a class="nav-item nav-link" href="#">Registro</a>
+        <a class="nav-item nav-link" href="#"><i class="fa fa-shopping-cart"></i> ($0,00)</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <div>Hero Image</div>
+  </div>
+
+  
+
+
+
+<section id="marcas" class="container mt-5">
+        <div id="carouselMarcas" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-4 col-6 text-center mb-4">
+                            <img src="franvida_logo.png" alt="Franvida Logo" class="img-fluid">
+                        </div>
+                        <div class="col-md-2 col-sm-4 col-6 text-center mb-4">
+                            <img src="funcional_logo.png" alt="Funcional Logo" class="img-fluid">
+                        </div>
+                        <div class="col-md-2 col-sm-4 col-6 text-center mb-4">
+                            <img src="gamisol_logo.png" alt="Gamisol Logo" class="img-fluid">
+                        </div> 
+                        </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-4 col-6 text-center mb-4">
+                            <img src="gladiator_logo.png" alt="Gladiator Logo" class="img-fluid">
+                        </div>
+                        <div class="col-md-2 col-sm-4 col-6 text-center mb-4">
+                            <img src="glovex_logo.png" alt="Glovex Logo" class="img-fluid">
+                        </div>
+                        <div class="col-md-2 col-sm-4 col-6 text-center mb-4">
+                            <img src="helictort_logo.png" alt="Helictort Logo" class="img-fluid">
+                        </div>
+                        </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-4 col-6 text-center mb-4">
+                            <img src="hi-flex_logo.png" alt="Hi-Flex Logo" class="img-fluid">
+                        </div>
+                        <div class="col-md-2 col-sm-4 col-6 text-center mb-4">
+                            <img src="lakeland_logo.png" alt="Lakeland Logo" class="img-fluid">
+                        </div>
+                        <div class="col-md-2 col-sm-4 col-6 text-center mb-4">
+                            <img src="libus_logo.png" alt="Libus Logo" class="img-fluid">
+                        </div>
+                        </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-4 col-6 text-center mb-4">
+                            <img src="mapa_logo.png" alt="Mapa Logo" class="img-fluid">
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<section id="productos" class="container mt-5">
+        <h2 class="text-center mb-4">Productos Destacados</h2>
+        <div class="row">
+            <div class="col-md-2 col-sm-4 col-6 mb-4">
+                <div class="product-card">
+                    <img src="/assets/images.jpeg" alt="Rollo de Cinta de Enmascarar 3M 18mm">
+                    <p>Rollo De Cinta De Enmascarar 3m 18mmx50mts 65537</p>
+                    <p>3M-52892 3m</p>
+                    <button class="btn btn-primary">Pedir Presupuesto</button>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-4">
+                <div class="product-card">
+                    <img src="/assets/images.jpeg" alt="Rollo de Cinta de Enmascarar 3M 24mm">
+                    <p>Rollo De Cinta De Enmascarar 3m 24mmx50mts 52893</p>
+                    <p>3M-52893 9m</p>
+                    <button class="btn btn-primary">Pedir Presupuesto</button>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-4">
+                <div class="product-card">
+                    <img src="/assets/images.jpeg" alt="Rollo de Cinta de Enmascarar 3M 36mm">
+                    <p>Rollo De Cinta De Enmascarar 3m 36mmx50mts 65541</p>
+                    <p>3M-52894 3m</p>
+                    <button class="btn btn-primary">Pedir Presupuesto</button>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-4">
+                <div class="product-card">
+                    <img src="/assets/images.jpeg" alt="Rollo de Cinta de Enmascarar 3M 48mm">
+                    <p>Rollo De Cinta De Enmascarar 3m 48mmx50mts 65543</p>
+                    <p>3M-62512 3m</p>
+                    <button class="btn btn-primary">Pedir Presupuesto</button>
+                </div>
+            </div>
+           
+        </div>
+       
+    </section>
+
+
+
+
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Expotools</p>
+    </div>
+  </footer>
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/1111111111" class="whatsapp-float" target="_blank">
+  <i class="fab fa-whatsapp whatsapp-icon"></i>
+</a>
+
+  
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

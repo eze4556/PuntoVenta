@@ -1,0 +1,72 @@
+.logo {
+    width: 100px;
+}
+
+.top-bar {
+    font-size: 14px;
+}
+
+.navbar-nav .nav-link {
+    color: #000;
+}
+
+.navbar-nav .nav-link i {
+    font-size: 18px;
+}
+
+#marcas {
+    padding: 30px 0; /* Add some padding around the section */
+}
+
+#marcas .carousel-item {
+            transition: transform 2s ease-in-out; /* Transición suave */
+        }
+
+
+.logo-container {
+    perspective: 800px; /* Añade perspectiva para el efecto 3D */
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    transition: transform 10s linear infinite; /* Transición suave e infinita */
+}
+
+.logo-container:hover .logo { /* Detener la rotación al pasar el ratón */
+    animation-play-state: paused;
+}
+
+@keyframes rotate {
+    from { transform: rotateY(0deg); }
+    to { transform: rotateY(360deg); }
+}
+
+.product-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+        }
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+        }
+
+
+    .whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 1000;
+}
+
+.whatsapp-icon {
+  margin-top: 16px;
+}
